@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverage Selector</title>
+    <script defer src="./index.js"></script> <!-- Use 'defer' to load the JS after the HTML -->
+</head>
+<body>
+    <h1 style="text-align: center;">Option for you</h1>
+
+    <div style="display: flex; justify-content: center;">
+        <button onclick="WriteData()">Write the data</button>
+    </div>
+    
+    <div id="beverage-container"></div>
+    <div style="display: flex; justify-content: center;">
+        <button onclick="datas()">Write about you</button>
+    </div>
+</body>
+<style>
+    body{
+        font-family: 'Montserrat', sans-serif;  
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        border-style:none ;
+        box-shadow: 1px 1px 1px black;
+        background-color:tomato;
+        color: white;
+        margin-top: 100px;
+    }
+    #beverage-container{
+        margin-top: 20px;
+    }
+</style>
+</html>
